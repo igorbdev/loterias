@@ -1,3 +1,8 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
 .resultado {
   display: flex;
   gap: 20px;
