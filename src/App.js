@@ -1,24 +1,24 @@
 import React from "react";
 import Button from "./Components/Button";
+import styles from "./App.module.css";
+import { MegaSena } from "./Components/MegaSena";
 
 function App() {
   const [jogo, setJogo] = React.useState([]);
 
-  function jogoMegasena() {
-    let megasena = [];
-
-    while (megasena.length < 6) {
-      megasena.push(Math.floor(Math.random() * 59 + 1));
-    }
-    setJogo([...megasena]);
+  function jogoMegaSena() {
+    const teste = MegaSena();
+    setJogo([...teste]);
   }
 
   return (
-    <div>
-      <Button onClick={jogoMegasena}>MegaSena</Button>
-      {jogo.map((numero) => (
-        <p key={numero.indexOf}>{numero}</p>
-      ))}
+    <div className={styles.app}>
+      <div className={styles.jogo}>
+        <Button onClick={jogoMegaSena}>MegaSena</Button>;
+        {jogo.map((numero) => (
+          <p key={numero.index}>{numero}</p>
+        ))}
+      </div>
     </div>
   );
 }
