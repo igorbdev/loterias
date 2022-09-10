@@ -69,7 +69,7 @@ function App() {
 
       <div className={styles.container2}>
         <div className={styles.resultado}>
-          <h2 style={{ color: cor }}>{nome}:</h2>
+          <h2 style={{ color: cor }}>{nome}</h2>
           <div className={styles.resultadoNumero}>
             {jogo.map((numero) => (
               <p
