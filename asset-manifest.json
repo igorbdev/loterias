@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/loterias/static/css/main.b827838f.css",
+    "main.js": "/loterias/static/js/main.8da82dd4.js",
+    "static/media/iconloterias.svg": "/loterias/static/media/iconloterias.d730ace41a7370490fa41546ec9cb827.svg",
+    "static/media/iconlotofacil.svg": "/loterias/static/media/iconlotofacil.f27a073b9a5140f5c60184d5ed442ae4.svg",
+    "static/media/iconmegasena.svg": "/loterias/static/media/iconmegasena.ec0d737e828d9359a03fddfc8f3153a6.svg",
+    "static/media/iconquina.svg": "/loterias/static/media/iconquina.ce3f4cf2ef8c0472fd8794da04b45e84.svg",
+    "index.html": "/loterias/index.html",
+    "main.b827838f.css.map": "/loterias/static/css/main.b827838f.css.map",
+    "main.8da82dd4.js.map": "/loterias/static/js/main.8da82dd4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b827838f.css",
+    "static/js/main.8da82dd4.js"
+  ]
+}
