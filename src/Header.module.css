@@ -9,14 +9,6 @@
   color: white;
   text-align: center;
   margin: 0 auto;
-  position: relative;
-}
-
-.header h1:before {
-  content: "";
-  position: absolute;
-  width: 60px;
-  height: 60px;
 }
 
 .container {
@@ -25,6 +17,13 @@
   height: 200px;
   margin: 0 auto;
   align-items: center;
+  gap: 20px;
+}
+
+.container div {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
   gap: 20px;
 }
 

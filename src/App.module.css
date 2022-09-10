@@ -3,14 +3,109 @@ body {
   padding: 0px;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container div {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  gap: 20px;
+  padding-top: 15px;
+}
+
+.megasena {
+  font-size: 1.125rem;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 0.4rem;
+  min-width: 8rem;
+  padding: 0.8rem 1.2rem;
+  box-sizing: border-box;
+  color: #019350;
+  font-weight: bold;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: white;
+}
+
+.megasena:hover {
+  border-color: #019350;
+}
+
+.quina {
+  font-size: 1.125rem;
+
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 0.4rem;
+  min-width: 8rem;
+  padding: 0.8rem 1.2rem;
+  box-sizing: border-box;
+  color: #37297f;
+  font-weight: bold;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: white;
+}
+
+.quina:hover {
+  border-color: #37297f;
+}
+
+.lotofacil {
+  font-size: 1.125rem;
+
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 0.4rem;
+  min-width: 8rem;
+  padding: 0.8rem 1.2rem;
+  box-sizing: border-box;
+  color: #72004c;
+  font-weight: bold;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: white;
+}
+
+.lotofacil:hover {
+  border-color: #72004c;
+}
+
 .resultado {
+  display: block;
+}
+
+.container2 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.resultado h2 {
+  font-size: 2rem;
+  margin: 0;
+  padding-top: 15px;
+}
+
+.resultadoNumero {
   display: flex;
   gap: 20px;
 }
 
 .resultado p {
-  border: 1px solid black;
+  border: 1px solid;
   padding: 5px 10px;
   border-radius: 50%;
   box-sizing: border-box;
+  font-size: 1.5rem;
+  color: white;
 }
