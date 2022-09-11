@@ -31,3 +31,33 @@
   width: 60px;
   height: 60px;
 }
+
+@media (max-width: 800px) {
+  .container {
+    height: 150px;
+  }
+
+  .header h1 {
+    font-size: 3rem;
+  }
+
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    height: 100px;
+  }
+
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .logo {
+    width: 30px;
+    height: 30px;
+  }
+}
